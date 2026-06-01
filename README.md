@@ -1,4 +1,3 @@
-# image-caption-generator
 # Image Caption Generator — Multi-Model Comparison
 
 Compares three vision-language models on deliberately hard images 
@@ -28,6 +27,13 @@ progression from pixel-level description to semantic reasoning.
 - GIT stalled on the foggy forest (trailing dots)
 - None identified the food as a face until BLIP-2 caught "princess"
 
+## Live Demo (Gradio UI)
+
+Upload any image and compare all 3 models instantly.
+
+![Gradio Demo](results/gradio_demo.png)
+
+> Run Cell 12 in the notebook to launch the interface locally.
 ## Run It Yourself
 Open in Colab → Runtime → T4 GPU → Run all cells
 
