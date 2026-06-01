@@ -1,12 +1,15 @@
-# Image Caption Generator — Multi-Model Comparison
+# Image Caption Generator - Multi-Model Comparison
 
-Compares three vision-language models on deliberately hard images 
-to show how model architecture affects caption quality.
+This project compares three vision-language models on deliberately 
+hard images - camouflage, optical illusions, food art, extreme 
+closeups. Results show a clear progression from pixel-level 
+description (BLIP base) to semantic reasoning (BLIP-2), 
+demonstrating why LLM backbones matter in multimodal AI.
 
 ## Models Used
-- **BLIP base** (Salesforce) — describes what pixels look like
-- **GIT base** (Microsoft) — describes what things are called  
-- **BLIP-2** (Salesforce) — understands what things mean
+- **BLIP base** (Salesforce) - describes what pixels look like
+- **GIT base** (Microsoft) - describes what things are called  
+- **BLIP-2** (Salesforce) - understands what things mean
 
 ## Key Finding
 Running all three on the same 6 hard images revealed a clear 
