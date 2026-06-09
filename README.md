@@ -1,4 +1,4 @@
-# Image Caption Generator - Multi-Model Comparison
+# VisionBench: Adversarial Evaluation of Vision-Language Models
 
 This project compares three vision-language models on deliberately 
 hard images - camouflage, optical illusions, food art, extreme 
